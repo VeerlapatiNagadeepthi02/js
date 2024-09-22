@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var tem=+prompt("enter temperture");
+        var b,c,d;
+        var age=+prompt("enter age");
+        var mark=+prompt("Eter marks");
+
+
+        var b=(tem>30) ? "HOT": b=(20<=tem && tem<=30) ? "warm": b=(tem=>10&& tem<=19)? "cool":b=(10>tem)?"cold":"not";
+        var c= (age>0 && age<=12) ?"child": c=(age>=13 && age<=19)? "teen": c=(age>=20 && age <64)? "Adult" :c=(age>65) ? "senior" :"not";
+        var d=(mark>=90 )? "A": d=(mark>=75)? "B": d=(mark>=60)? "C": d=(mark>=45)? "D":d=(mark<45)? "F": "not";
+    console.log(b);
+    console.log(c);
+    console.log(d);
+    
+    
+    
+    </script>
+</body>
+</html>

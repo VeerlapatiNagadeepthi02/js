@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>condition statements</title>
+</head>
+<body>
+    <script>
+        switch(new Date().getDay())
+
+        {
+            case 1 : 
+            {
+               console.log("'Start your week strong!' ");
+               break;
+            }
+            case 2 : 
+            {
+               console.log("'keep going!'");
+               break;
+            }
+            case 3 : 
+            {
+               console.log("'Halfway there!'");
+               break;
+            }
+            case 4 : 
+            {
+               console.log("'Almost the weekend!'");
+               break;
+            }
+            case 5 : 
+            {
+               console.log("'happy friday'");
+               break;
+            }
+            default : 
+            {
+               console.log("'Enoy the weekend!'");
+               break;
+            }
+
+
+
+        }
+
+
+        let color=prompt("enter Color");
+        switch(color)
+
+        {
+            case "red" :
+            {
+               console.log("Stop");
+               break;
+            }
+            case "Yellow" : 
+            {
+               console.log("Get Ready");
+               break;
+            }
+            case "Green" : 
+            {
+               console.log("go");
+               break;
+            }
+     
+            default : 
+            {
+               console.log("enter valid color");
+               break;
+            }
+
+        }
+
+
+         
+      
+      let a=+prompt("enter amount to know the discount.");
+      switch(true)
+      {
+        case a<50 :
+            {
+               console.log("No discount");
+               break;
+            }
+            case a>50 && a<100 : 
+            {
+               console.log("5% discount");
+               break;
+            }
+            case a<101 && a>200 : 
+            {
+               console.log("10% discount");
+               break;
+            }
+            case a>200 : 
+            {
+               console.log("15% discount");
+               break;
+            }
+     
+            default : 
+            {
+               console.log("enter valid color");
+               break;
+            }
+
+        }
+   
+  
+
+    </script>
+    
+</body>
+</html>
