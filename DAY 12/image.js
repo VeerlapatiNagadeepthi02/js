@@ -1,7 +1,7 @@
 var html =document.getElementById("HTML")
 html.addEventListener("click",()=>
 {
-    Img.src="frontend"
+    img.src="i"
 });
 // var css=document.createElement("CSS")
 
